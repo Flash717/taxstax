@@ -2,9 +2,9 @@
 
 TaxStax is a solution to collect and analyze your sales tax from receipts (e.g. shopping, restaurants, etc.)
 
-# Generate mermaid diagram
+## Process overview
 ```mermaid
-graph LR;
+graph LR
     A[Mobile App] --> B{Capture Receipt Image}
     B --> |Optional| C{Image Preprocessing}
     B --> D{OCR Engine}
